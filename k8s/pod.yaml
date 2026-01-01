@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-week_11_exam
+  labels:
+    app: web
+spec:
+  containers:
+  - name: image-week_11_exam
+    image: yakov234/week_11_exam:v1
+    ports:
+    - containerPort: 8080
