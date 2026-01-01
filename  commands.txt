@@ -39,4 +39,21 @@ git commit -m creating pod and service yaml files
 git push
 
 
+שלב 4
+git checkout -b running-kubernetes
+
+כדי להחיל את רצונתיי אשר מובעים בקבצי yaml
+kubectl apply -f ./k8s
+
+להתחיל minikube
+minikube start
+לחשוף את ip לעולם הרחב והיפה של הקבה
+minikube service service-week-11-exam
+
+git add .
+git commit -m is work Ob-La-Di, Ob-La-Da La La La
+git push
+
+
+
 

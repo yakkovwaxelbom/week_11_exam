@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-    name: service-week_11_exam
+    name: service-week-11-exam
 spec:
     selector:
         app: web
