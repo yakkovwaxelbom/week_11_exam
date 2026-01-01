@@ -70,6 +70,17 @@ git add .
 git commit -m :)
 git push
 
+שלב 6
+git checkout -b creating-md-files
+
+git add .
+git commit -m :(
+git push
+
+
+pr עשיתי על github עצמו
+
+
 
 
 
