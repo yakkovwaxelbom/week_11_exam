@@ -1,0 +1,19 @@
+כדאי למשוך את הריפו אשר יצרתי ב-hub 
+gh repo clone yakkovwaxelbom/week_11_exam
+
+כדי לעלות קבצים ל-hub
+git add .
+git commit -m 
+git push
+
+כדי לייצר בראנץ חדש 
+git checkout -b
+
+כדי לייצר תמונה ולעלות ל-hub
+docker login
+docker build -t yakov234/week_11_exam:v1 .
+docker push yakov234/week_11_exam:v1
+
+להריץ את התמונה
+docker run -p 8080:8080 yakov234/week_11_exam:v1 
+
