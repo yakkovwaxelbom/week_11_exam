@@ -1,19 +1,61 @@
+שלב 0
 כדאי למשוך את הריפו אשר יצרתי ב-hub 
 gh repo clone yakkovwaxelbom/week_11_exam
+יצרתי בראנץ
+git checkout -b creating-folders-and-files
+יצרתי מבנה תקיות
 
-כדי לעלות קבצים ל-hub
 git add .
-git commit -m 
+git commit -m לכל הרוחות לא זוכר מה כתבתי במסר
 git push
 
-כדי לייצר בראנץ חדש 
-git checkout -b
+
+שלב 1
+התעקתי את הקבצים copy paste
+
+שלב 2
+
+פתחתי בראנץ חדש
+git checkout -b creating-dockerfile
 
 כדי לייצר תמונה ולעלות ל-hub
 docker login
 docker build -t yakov234/week_11_exam:v1 .
 docker push yakov234/week_11_exam:v1
 
+git add .
+git commit -m is work
+git push
+
 להריץ את התמונה
 docker run -p 8080:8080 yakov234/week_11_exam:v1 
+
+שלב 3 
+פתחתי בראנץ חדש
+git checkout -b creating-yaml-files
+
+git add .
+git commit -m creating pod and service yaml files
+git push
+
+
+שלב 4
+git checkout -b running-kubernetes
+
+כדי להחיל את רצונתיי אשר מובעים בקבצי yaml
+kubectl apply -f ./k8s
+
+להתחיל minikube
+minikube start
+לחשוף את ip לעולם הרחב והיפה של הקבה
+minikube service service-week-11-exam
+
+git add .
+git commit -m is work Ob-La-Di, Ob-La-Da La La La
+git push
+
+
+
+
+
 
