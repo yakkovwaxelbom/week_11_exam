@@ -54,6 +54,21 @@ git add .
 git commit -m is work Ob-La-Di, Ob-La-Da La La La
 git push
 
+שלב 5
+git checkout -b logs-and-tests
+להציג logs על פוד ספציפי
+kubectl logs pod-week-11-exam
+לקבל את הפודים והסרווסים הקיימים
+kubectl get pods
+kubectl get service
+
+לקבל תיאורים וסיפורים מוגזמים בהחלט על הפודים והסרווסים
+kubectl describe pod
+kubectl describe service
+
+git add .
+git commit -m :)
+git push
 
 
 
